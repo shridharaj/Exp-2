@@ -18,8 +18,7 @@ Design the defferntial amplifier for the given parameters and do DC, AC and Tran
 3. Rd=Vdd-Vocm/Id=3.3kohm
 4. Rss=Vp/Iss=777ohm
 ## Circuit Diagram
-
-![ckt](https://github.com/user-attachments/assets/c7315d6c-fc71-474a-ba49-8541ccccb0ee)
+![Screenshot 2025-03-12 204043](https://github.com/user-attachments/assets/bbefc3b0-0895-4a32-bf59-9fb4e8a55e63)
 
 ## Procedure
 * Create a circuit schematic in LTSpice using the instructions provided.
@@ -36,8 +35,7 @@ Design the defferntial amplifier for the given parameters and do DC, AC and Tran
 To Perform DC Analysis  In the edit simulation, choose DC operation point.
 
  Set the right Length=180nm and Width=7.8um values to acquire the desired ID
-
-![dc output](https://github.com/user-attachments/assets/e70dbc15-245d-4f99-a311-49f103d2bb5b)
+![Screenshot 2025-03-12 204548](https://github.com/user-attachments/assets/1ebee6b5-a542-48d6-92bd-cf8f7a936ac6)
 
 ### AC Analysis
 Procedure for AC Analysis:
@@ -52,13 +50,10 @@ Transient analysis was used to track how the output voltage waveform changed ove
 ![transient output](https://github.com/user-attachments/assets/a2e796a2-f1fb-443f-9aa5-924ab7f3792a)
 
 ## Replaced Rss with a Current Source(0.90mA)
-
-![Iss ckt](https://github.com/user-attachments/assets/a333674e-1936-4369-a590-f48cb84489e1)
+![Screenshot 2025-03-12 210135](https://github.com/user-attachments/assets/00785ce3-d3d9-4737-9213-5a57ae957918)
 
 ### DC Analysis
-
-![Iss DC op](https://github.com/user-attachments/assets/c71a4e82-50a3-4299-a799-cb1c68712996)
-
+![Screenshot 2025-03-12 210206](https://github.com/user-attachments/assets/b7524292-2cc6-46f2-be15-f5db8ad0ae94)
 ### AC Analysis
 
 ![AC output](https://github.com/user-attachments/assets/1da3489d-1c31-44d4-a827-8bfe78eb1b3b)
@@ -69,12 +64,10 @@ Transient analysis was used to track how the output voltage waveform changed ove
 
 
 ## Replaced Current source with MOSFET(Length=180nm, Width=17.8um) 
-
-![MC ckt](https://github.com/user-attachments/assets/8d373775-86dd-42b1-80e5-1a60739753bb)
+![Screenshot 2025-03-12 212851](https://github.com/user-attachments/assets/0128b101-924e-4494-a474-f0c93a6c8a69)
 
 ### DC Analysis
-
-![MC DC op](https://github.com/user-attachments/assets/07951464-da5f-4541-a47c-2cf314a48781)
+![Screenshot 2025-03-12 212138](https://github.com/user-attachments/assets/ff9e1b62-5f39-4e97-9607-9c2f5898d446)
 
 ### AC Analysis
 
@@ -85,12 +78,10 @@ Transient analysis was used to track how the output voltage waveform changed ove
 ![Mc Transient op](https://github.com/user-attachments/assets/ab730dce-7720-4276-abfa-5adb0605921a)
 
 ## Replaced Rd with PMOS MOSFET (Length=180nm & Width=3.65um)
-
-![Mosfet ckt](https://github.com/user-attachments/assets/51a59a17-5459-4bc3-a0e8-0f1f77da78ea)
+![Screenshot 2025-03-12 214042](https://github.com/user-attachments/assets/294d6301-61a0-4301-b849-6d7cfe6d19db)
 
 ### DC Analysis
-
-![MOSFET DC](https://github.com/user-attachments/assets/6f13219c-4cd3-4da0-b0ca-04ef036873b4)
+![Screenshot 2025-03-12 213838](https://github.com/user-attachments/assets/b79db59e-cbdc-4465-bf30-c2181e259b0b)
 
 ### AC Analysis
 
